@@ -10,13 +10,13 @@
 
 <p align="center">
   <a href="https://github.com/sueh0/TidyMind/releases/download/TidyMind/TidyMind.exe">
-    <img src="https://img.shields.io/badge/DOWNLOAD-TidyMind%20(.BAT)-success?style=for-the-badge&logo=windows&logoColor=white&color=2ecc71" alt="Botão de Download TidyMind" height="50px">
+    <img src="https://img.shields.io/badge/DOWNLOAD-BookmarkX%20(.BAT)-success?style=for-the-badge&logo=windows&logoColor=white&color=2ecc71" alt="Botão de Download TidyMind" height="50px">
   </a>
 </p>
 
 ---
 
-## 🚀 O que este projeto faz?
+## ❓ O que o arquivo faz?
 
 Este projeto fornece um script **`atualizar_bookmarks.bat`** que:
 
@@ -29,7 +29,7 @@ Ideal para quem deseja manter um **backup local** de imagens, vídeos e mídias 
 
 ---
 
-## 📂 Estrutura do projeto
+## 📂 Estrutura da pasta
 
 ```
 📁 backup-bookmarks-x/
@@ -48,7 +48,7 @@ O script executa o seguinte comando principal:
 gallery-dl --cookies cookies.txt -o directory.format="{category}/{author}" "https://x.com/i/bookmarks"
 ```
 
-### 🔍 Explicação do comando
+### 🔍 Comandos
 
 | Parte | Função |
 |------|-------|
@@ -67,7 +67,7 @@ twitter/
 
 ---
 
-## 🍪 Como obter o arquivo `cookies.txt`
+## 🍪 Como conseguir o `cookies.txt`
 
 Para que o download funcione, é necessário estar **logado na sua conta do X** usando cookies.
 
