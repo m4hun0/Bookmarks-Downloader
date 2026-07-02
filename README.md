@@ -16,20 +16,20 @@
 
 ---
 
-## ❓ O que o arquivo faz?
+## O que o arquivo faz?
 
 Este projeto fornece um script **`atualizar_bookmarks.bat`** que:
 
-- 📥 Faz o download de todos os seus bookmarks do X
-- 🔐 Utiliza seus **cookies de login** para autenticação
-- 🗂 Organiza os arquivos por **categoria e autor**
-- ⚡ Executa tudo com **duplo clique** no Windows
+- Faz o download de todos os seus bookmarks do X
+- Utiliza seus **cookies de login** para autenticação
+- Organiza os arquivos por **categoria e autor**
+- Executa tudo com **duplo clique** no Windows
 
 Ideal para quem deseja manter um **backup local** de imagens, vídeos e mídias salvas.
 
 ---
 
-## 📂 Estrutura da pasta
+## Estrutura da pasta
 
 ```
 📁 backup-bookmarks-x/
@@ -40,7 +40,7 @@ Ideal para quem deseja manter um **backup local** de imagens, vídeos e mídias 
 
 ---
 
-## 🧠 Como funciona o arquivo `.bat`
+## Como funciona o arquivo `.bat`
 
 O script executa o seguinte comando principal:
 
@@ -48,7 +48,7 @@ O script executa o seguinte comando principal:
 gallery-dl --cookies cookies.txt -o directory.format="{category}/{author}" "https://x.com/i/bookmarks"
 ```
 
-### 🔍 Comandos
+### Comandos
 
 | Parte | Função |
 |------|-------|
@@ -57,7 +57,7 @@ gallery-dl --cookies cookies.txt -o directory.format="{category}/{author}" "http
 | `directory.format` | Organiza os arquivos em pastas |
 | URL bookmarks | Página de salvos do X |
 
-📁 Exemplo de saída:
+Exemplo de saída:
 ```
 twitter/
  └── usuario_exemplo/
@@ -67,18 +67,18 @@ twitter/
 
 ---
 
-## 🍪 Como conseguir o `cookies.txt`
+## Como conseguir o `cookies.txt`
 
 Para que o download funcione, é necessário estar **logado na sua conta do X** usando cookies.
 
-### ✅ Método recomendado (mais fácil)
+### Método recomendado (mais fácil)
 
 Utilize a extensão do navegador:
 
-### 🔹 **Get cookies.txt LOCALLY**
+### **Get cookies.txt LOCALLY**
 
-- 🌐 Disponível para Chrome e Firefox
-- 🔒 Exporta cookies **localmente**, sem enviar dados para servidores externos
+- Disponível para Chrome e Firefox
+- Exporta cookies **localmente**, sem enviar dados para servidores externos
 
 #### Passo a passo:
 1. Instale a extensão **Get cookies.txt LOCALLY**
@@ -87,11 +87,11 @@ Utilize a extensão do navegador:
 4. Exporte os cookies como `cookies.txt`
 5. Coloque o arquivo na mesma pasta do `.bat`
 
-⚠️ **Nunca compartilhe seu `cookies.txt`**
+**Nunca compartilhe seu `cookies.txt`**
 
 ---
 
-## ▶️ Como usar
+## Como usar
 
 1. Instale o **gallery-dl**
 2. Extraia seus cookies e salve como `cookies.txt`
@@ -101,7 +101,7 @@ Utilize a extensão do navegador:
 
 ---
 
-## 🛠 Requisitos
+## Requisitos
 
 - Windows
 - Python 3
