@@ -1,6 +1,18 @@
-# 📌 Backup de Bookmarks do X (Twitter)
+<p align="center">
+  <img src="logo.png" alt="TidyMind Logo" width="180px">
+</p>
 
-> Automatize o download dos seus **bookmarks (salvos)** do X (antigo Twitter) utilizando **gallery-dl** e um simples arquivo `.bat` no Windows.
+# <p align="center">BookmarkX Downloader</p>
+
+<p align="center">
+  Automatize o download dos seus **bookmarks (salvos)** do X (antigo Twitter) utilizando **gallery-dl** e um simples arquivo `.bat` no Windows.
+</p>
+
+<p align="center">
+  <a href="https://github.com/sueh0/TidyMind/releases/download/TidyMind/TidyMind.exe">
+    <img src="https://img.shields.io/badge/DOWNLOAD-TidyMind%20(.EXE)-success?style=for-the-badge&logo=windows&logoColor=white&color=2ecc71" alt="Botão de Download TidyMind" height="50px">
+  </a>
+</p>
 
 ---
 
